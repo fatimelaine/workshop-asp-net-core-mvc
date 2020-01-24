@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using SalesWebMvc.Services;
 using System;
 using System.Threading.Tasks;
@@ -35,6 +35,7 @@ namespace SalesWebMvc.Controllers
             return View(result); 
         }
 
+<<<<<<< HEAD
         public async Task<IActionResult> GroupingSearch(DateTime? minDate, DateTime? maxDate)
         {
             if (!minDate.HasValue)
@@ -49,6 +50,11 @@ namespace SalesWebMvc.Controllers
             ViewData["maxDate"] = maxDate.Value.ToString("yyyy-MM-dd");
             var result = await _salesRecordService.FindByDateGroupingAsync(minDate, maxDate);
             return View(result);
+=======
+        public IActionResult GroupingSearch()
+        {
+            return View();
+>>>>>>> 7757a87394d9a315a4559e9a4b66e28817ae98a9
         }
     }
 }
