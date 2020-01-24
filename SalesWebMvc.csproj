@@ -14,13 +14,10 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.0" />
-<<<<<<< HEAD
     <PackageReference Include="Roslyn.Diagnostics.Analyzers" Version="2.9.8">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-=======
->>>>>>> 7757a87394d9a315a4559e9a4b66e28817ae98a9
   </ItemGroup>
 
 
